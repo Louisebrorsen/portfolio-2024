@@ -35,6 +35,6 @@
     console.log(specificPortfolioItem)
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

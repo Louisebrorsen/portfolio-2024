@@ -13,7 +13,7 @@
     </div>
     <div class="flex flex-row items-center justify-center py-6 gap-x-6">
       <button class="btn"> Om mig </button>
-      <button class="btn"> Mit CV </button>
+      <button class="btn"> Mit CV <Icon icon="material-symbols-light:download-rounded" /></button>
     </div>
   </hero>
 
@@ -48,6 +48,7 @@
 </template>
 
 <script setup>
+import { Icon } from '@iconify/vue';
 </script>
 
 <style>
