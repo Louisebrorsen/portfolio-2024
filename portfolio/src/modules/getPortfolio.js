@@ -5,6 +5,9 @@ Dette gør at man kun skal opdatere data ét sted, og så vil det blive opdatere
 
 import { ref } from 'vue'
 import image1 from '../assets/img/moffe.png'
+import image2 from '../assets/img/mom.png'
+import image3 from '../assets/img/Thecakeshop.png'
+import image4 from '../assets/img/trapholt.png'
 
 
 const getPortlolioItems = () => {
@@ -12,30 +15,43 @@ const getPortlolioItems = () => {
     const portfolioItems = ref([
       {
         id: 1,
-        title: 'Familie som blomster',
-        description: 'Et billede tegnet af mig, som viser min familie som deres måneds blomst.',
+        title: 'Familie "portæt"',
+        description: 'Familie "portæt" hvor vi er repræsenteret af hver af vores månedsblomst.',
         image: image1,
         category: 'ccge'
     
       },
       {
         id: 2,
-        title: 'Portfolio Item 2',
-        description: 'This is the second portfolio item',
-        image: 'https://via.placeholder.com/150',
-        link: 'https://www.google.com',
-        category: 'photo'
+        title: 'Familie "portæt"',
+        description: 'Familie "portæt" hvor vi er repræsenteret af hver af vores månedsblomst.',
+        image: image2,
+        category: 'ccge'
       },
       {
         id: 3,
-        title: 'Portfolio Item 3',
-        description: 'This is the third portfolio item'
+        title: 'Thecakeshop hjemmeside',
+        description: 'Første projekt i forbindelse med webudvikling.',
+        image: image3, 
+        link: 'https://thecakeshop.dk',
+        category: 'web'        
       },
       {
         id: 4,
-        title: 'Portfolio Item 2',
-        description: 'This is the second portfolio item'
-      }  
+        title: 'Eksamens projekt Trapholt',
+        description: 'Eksamens projekt for Trapholt.',
+        image: image4,
+        category: 'project',
+        link: 'https://eksamentrapholt.dk/'
+      },  
+      {
+        id: 5,
+        title: 'Eksamens projekt Trapholt',
+        description: 'Eksamens projekt for Trapholt.',
+        image: image4,
+        category: 'project',
+        link: 'https://eksamentrapholt.dk/'
+      },  
     ])
 
     return { portfolioItems }
