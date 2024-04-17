@@ -30,7 +30,7 @@
               <div v-if="portfolioItem.link">
                 <a :href="portfolioItem.link">Link</a>
               </div>
-              <router-link :to="'/PortfolioDetailView.vue/' + portfolioItem.id">
+              <router-link :to="'/PortfolioDetailView/' + portfolioItem.id">
                 <button class="btn2">Se mere</button>
               </router-link>
             </div>
