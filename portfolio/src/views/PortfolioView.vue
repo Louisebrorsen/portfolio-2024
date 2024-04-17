@@ -19,7 +19,7 @@
       <div class="project-card-grid">
         <div class="project-card" v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem.id">
           <div class="card">
-            <div class="card-image">
+            <div class="card-image py-4">
               <img :src="portfolioItem.image" alt="">
             </div>
             <div class="card-content">
@@ -105,8 +105,9 @@
   }
   
   .card-image img {
-    width: 100%;
+    width: auto;
     max-height: 150px;
+    min-height: 100px;
     object-fit: cover;
   }
   

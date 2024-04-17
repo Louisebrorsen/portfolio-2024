@@ -8,7 +8,8 @@ import image1 from '../assets/img/moffe.png'
 import image2 from '../assets/img/mom.png'
 import image3 from '../assets/img/Thecakeshop.png'
 import image4 from '../assets/img/trapholt.png'
-
+import image5 from '../assets/img/sten-port.png'
+import image6 from '../assets/img/IMG_7107.jpeg'
 
 const getPortlolioItems = () => {
     
@@ -46,11 +47,17 @@ const getPortlolioItems = () => {
       },  
       {
         id: 5,
-        title: 'Eksamens projekt Trapholt',
-        description: 'Eksamens projekt for Trapholt.',
-        image: image4,
-        category: 'project',
-        link: 'https://eksamentrapholt.dk/'
+        title: 'Fjernelse af baggrund',
+        description: 'Fjernelse af baggrund af billede.',
+        image: image5,
+        category: 'ccvf',
+      },  
+      {
+        id: 6,
+        title: 'Billede af nattehimmel',
+        description: 'Billede af nattehimmel med stjerner.',
+        image: image6,
+        category: 'ccvf',
       },  
     ])
 
