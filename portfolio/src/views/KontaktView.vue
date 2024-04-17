@@ -8,8 +8,11 @@
             <p class="text-left">
               Navn: Louise Norman Brorsen
             </p>
+            <p>
+              <iconify-icon icon="mdi:home"></iconify-icon>
+            </p>
               <p>Email: louisenb01@outlook.com </p>
-              <p>Telefon: +45 21 95 50 72</p>
+              <p> <Icon Icon="material-symbols-light:download-rounded" /> Telefon: +45 21 95 50 72</p>
 
 
           </div>
@@ -49,6 +52,8 @@
 </template>
 
 <script>
+
+
 export default {
   data() {
     return {

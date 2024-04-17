@@ -8,7 +8,7 @@
     --color2: rgb(10, 25, 30);
     padding: 0.8em 1.75em;
     background-color: transparent;
-    border-radius: 6px;
+    border-radius: 8px;
     border: .3px solid var(--color);
     transition: .5s;
     position: relative;

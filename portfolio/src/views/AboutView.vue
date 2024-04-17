@@ -9,9 +9,11 @@
 
         </div>
         <h2 class="text-2xl font-bold text-left py-5">
-          Hej! <br>
-          Jeg hedder Louise Norman Brorsen   
+          Hej! 
         </h2>
+        <h3 class="text-xl font-semibold text-left py-5">
+          Jeg hedder Louise Norman Brorsen   
+        </h3>
         <p class="text-left">
           Jeg er en dedikeret kreativ designer, med en passion for kvalitet.
           Jeg besidder en stærk faglig baggrund inden for grafisk design med erfaring inden for både print og digitalt medie. 
