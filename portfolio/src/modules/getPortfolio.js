@@ -19,6 +19,7 @@ const getPortlolioItems = () => {
         id: 1,
         title: 'Familie "portæt"',
         description: 'Familie "portæt" hvor vi er repræsenteret af hver af vores månedsblomst.',
+        description2: 'Ville overaske min morfar med et billede af os alle sammen, hvor vi hver især er repræsenteret af vores månedsblomst. Jeg har lavet billedet i fresco og illustrator. Ideen kom ud fra at et billede af os sammen ikke var tiltalende at have stående fremme, derfor tænkte jeg det kunne være et godt elternativ, da han er natur glad',
         image: image1,
         category: 'ccge'
     
@@ -27,6 +28,7 @@ const getPortlolioItems = () => {
         id: 2,
         title: 'Familie "portæt"',
         description: 'Familie "portæt" hvor vi er repræsenteret af hver af vores månedsblomst.',
+        description2: 'Ville overaske min mor med vores lille kerne af familien samlet. Jeg har lavet billedet i fresco og illustrator.',   
         image: image2,
         category: 'ccge'
       },
@@ -34,6 +36,7 @@ const getPortlolioItems = () => {
         id: 3,
         title: 'Thecakeshop hjemmeside',
         description: 'Første projekt i forbindelse med webudvikling.',
+        description2: 'Denne hjemmeside er det første projekt jeg har lavet i forbindelse med webudvikling. Jeg har lavet hjemmesiden med html og scss, og har stået for at designe og kode den.',
         image: image3, 
         link: 'https://thecakeshop.dk',
         category: 'web'        
@@ -42,14 +45,17 @@ const getPortlolioItems = () => {
         id: 4,
         title: 'Eksamens projekt Trapholt',
         description: 'Eksamens projekt for Trapholt.',
+        description2: 'Til vores første sem. eksamen skulle vi lave en rapport for Trapholt, hvor vi skulle lave en ny hjemmeside til dem, samt grafisk materiale. Jeg har primært været den der har stået for at kode hjemmesiden.',
         image: image4,
         category: 'project',
+        pdfURL:'https://firebasestorage.googleapis.com/v0/b/portfolio-louisebrorsen.appspot.com/o/trapholt-report.pdf?alt=media&token=bc6ddfa2-b15d-4127-a533-df57a7cc50ed',
         link: 'https://eksamentrapholt.dk/'
       },  
       {
         id: 5,
         title: 'Fjernelse af baggrund',
         description: 'Fjernelse af baggrund af billede.',
+        description2: 'Jeg har fjernet baggrunden på dette billede, for at øve mig i at bruge Photoshop.',
         image: image5,
         category: 'ccvf',
       },  
@@ -63,8 +69,10 @@ const getPortlolioItems = () => {
       {
         id: 7,
         title: 'Logo challenge',
-        description: '30 dages logo challenge, opdaterer på min dribble.',
+        description:'Uddrag fra 30 dages logo challenge.',
+        description2: 'Jeg har vlagt at deltage i en 30 dages logo challenge, for at udfordre mig selv og for at blive bedre til at designe logoer. og benytte de forskellige design programmer',
         image: image7,
+        link: 'https://dribbble.com/louisebrorsen',
         category: 'project',
       },  
     ])

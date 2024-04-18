@@ -13,16 +13,14 @@
       <!-- Burger menu -->
       <div v-show="burgerMenuOpen" class="sm:hidden">
         <router-link to="/" class="text-m font-semibold leading-6 text-black block">Forside</router-link>
-        <router-link to="/about" class="text-m font-semibold leading-6 text-black block">Omkring</router-link>
+        <router-link to="/about" class="text-m font-semibold leading-6 text-black block">Om mig</router-link>
         <router-link to="/portfolio" class="text-m font-semibold leading-6 text-black block">Portfolio</router-link>
-        <router-link to="/kontakt" class="text-m font-semibold leading-6 text-black block">Kontakt</router-link>
       </div>
       <!-- Regular menu -->
       <div class="flex flex-row gap-4 hidden sm:flex">
         <router-link to="/" class="text-m font-semibold leading-6 text-black">Forside</router-link>
-        <router-link to="/about" class="text-m font-semibold leading-6 text-black">Omkring</router-link>
+        <router-link to="/about" class="text-m font-semibold leading-6 text-black">Om mig</router-link>
         <router-link to="/portfolio" class="text-m font-semibold leading-6 text-black">Portfolio</router-link>
-        <router-link to="/kontakt" class="text-m font-semibold leading-6 text-black">Kontakt</router-link>
       </div>
     </nav>
   </header>

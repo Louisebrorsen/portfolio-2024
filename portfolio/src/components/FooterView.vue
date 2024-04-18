@@ -1,4 +1,7 @@
 <template>
+    
+    <div class="horizontal-line"></div>
+
     <div class="footer bg-green">
         <div class="container">
             <div class="flex flex-col items-center gap-4 py-6">
@@ -36,20 +39,36 @@
                             LinkedIn <!-- Navnet, der skal vises i boksen -->
                         </div>
                     </a>
-                    <router-link to="/kontakt" class="button-container">
-                        <button>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                                <path fill="#2e2e2e" d="M6 17c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6m9-9a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2" />
-                            </svg>
-                        </button>
-                        <div class="button-tooltip">
-                            Kontakt <!-- Navnet, der skal vises i boksen -->
-                        </div>
-                    </router-link>
                 </div>
+                <div class="flex flex-row gap-4">
+                    <div class="flex flex-row gap-4">
+                    <div class="flex items-center py-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                      <path fill="black" d="M12 10.8a2 2 0 1 0-2-2a2 2 0 0 0 2 2m-.71 6.91a1 1 0 0 0 1.42 0l4.09-4.1a6.79 6.79 0 1 0-9.6 0ZM7.23 8.34a4.81 4.81 0 0 1 2.13-3.55a4.81 4.81 0 0 1 5.28 0a4.82 4.82 0 0 1 .75 7.41L12 15.59L8.61 12.2a4.77 4.77 0 0 1-1.38-3.86M19 20H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2" />
+                    </svg>
+                    <p class="text-xs">Bramming, Esbjerg</p>
+                  </div>
+                </div>
+                  <div class="flex items-center py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                        <path fill="black" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z" />
+                    </svg>
+                    <p class="text-xs">+45 21 95 50 72</p>
+                  </div>
+                  <div class="flex items-center py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 21 21">
+                      <path fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" d="m1.5 9l16-6.535L14.7 17zm16-6.5l-11 10m0 0v5l3-3" />
+                    </svg>
+                    <p class="text-xs">louisenb01@outlook.com</p>
+                  </div>
+                </div>
+                <p class="text-center text-xs">© 2024 Louise Brorsen</p>
             </div>
         </div>
     </div>
+
+
+   
 
 </template>
 
@@ -60,6 +79,17 @@
 
 
 <style scoped>
+.horizontal-line {
+    
+        height: 2px; /* Juster højden her */
+        background-color: black; /* Farven på stregen */
+        margin: auto; /* Centrerer div'en vandret */
+    }
+
+
+p{
+    color:#2e2e2e
+}
 
 button:hover {
     transform: scale(1.33); 
