@@ -10,6 +10,7 @@ import image3 from '../assets/img/Thecakeshop.png'
 import image4 from '../assets/img/trapholt.png'
 import image5 from '../assets/img/sten-port.png'
 import image6 from '../assets/img/IMG_7107.jpeg'
+import image7 from '../assets/img/Rocketship Logo - day 1.jpg'
 
 const getPortlolioItems = () => {
     
@@ -58,6 +59,13 @@ const getPortlolioItems = () => {
         description: 'Billede af nattehimmel med stjerner.',
         image: image6,
         category: 'ccvf',
+      },  
+      {
+        id: 7,
+        title: 'Logo challenge',
+        description: '30 dages logo challenge, opdaterer på min dribble.',
+        image: image7,
+        category: 'project',
       },  
     ])
 
